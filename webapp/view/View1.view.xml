@@ -5,7 +5,7 @@
 				<Page id="page" title="{i18n>title}">
 					<content>
 				<smartTable:SmartTable id="idDepartmentSmartTable" entitySet="DepartmentDetails" tableType="ResponsiveTable" useExportToExcel="true"
-				beforeRebindTable="onDepartmentDetailsBeforeRebindTable" header="Department" showRowCount="true" smartFilterId="idDepartmentDetailsSmartFilter"
+				beforeRebindTable="onDepartmentDetailsBeforeRebindTable" header="Departments" showRowCount="true" smartFilterId="idDepartmentDetailsSmartFilter"
 				showFullScreenButton="true" enableAutoBinding="true"  requestAtLeastFields="ZDPT_PLANT_CODE,ZDPT_CODE,ZDPT_NAME,ZDPT_DELETION_FLAG"  beforeExport="onBeforeExport">
 					</smartTable:SmartTable>
 					</content>
